@@ -10,8 +10,8 @@
 </head>
 <body>
     <?php
-        echo'<h1> Liên hệ </h1>';
-        <a href='../index.php'>Quay về trang chủ </a>;
+        echo"<h1> Liên hệ </h1>";
+        <a href="../index.php"> Quay về trang chủ </a>;
     ?>
 </body>
 </html>
