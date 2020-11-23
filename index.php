@@ -1,3 +1,3 @@
 <?php
-echo"<h1 style="color: blue;">Hello </h1>";
+echo'<h1 style="color: blue;">Hello </h1>';
 ?>
