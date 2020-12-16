@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -9,19 +9,15 @@
     <script src="main.js"></script>
 </head>
 <body>
+<h1>DANH SACH LOAI SAN PHM</h1>
 <?php
-    
-    $hoten = 'lan';
-    echo 'Ten ' . $hoten . '!!';
-  
-?>
-<?php 
-echo $hoten
-?>
-<?= $hoten ?>
+    require_once('connect.php');
+    $sp = "INSERT INTO loaisanpham VALUES ('SP01', 'com')";
+    $cmt = "INSERT INTO chudegopy VALUES ('gop y 01')";
+    mysqli_query($conn, $cmt);
+    mysqli_query($conn, $sp);
 
-    <a href="pages/contact.php"> CONTACT</a><br>
-    <a href="pages/about.php"> ABOUT</a>
+?>
 
 </body>
 </html>
